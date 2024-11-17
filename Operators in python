@@ -1,0 +1,36 @@
+#Arthematic operators
+a=10
+b=5
+sum=a+b
+diff=a-b
+mul=a*b
+div=a/b
+modulo=a%b#finds the reaminder of the value
+power=a**b#we find the power 10^5
+print(sum,diff,mul,div,modulo,power)
+#Relational operators
+a=15
+b=25
+equal=a==b
+greater=a<b
+smaller=a>b
+grequ=a<=b
+smaequ=a>=b
+noteql=a!=b
+print(equal,greater,smaller,grequ,smaequ,noteql)
+#Assignment opeartors
+num=10
+num+=10
+num-=20
+num*=20
+num/=10
+num%=5
+num**=2
+print(num)
+#Logical operators
+x=True
+print(not x)#not operator prints opposite of the given boolean value
+x= True
+y=True
+print("and operator:" ,x and  y)
+print("or operator:",x or y)
