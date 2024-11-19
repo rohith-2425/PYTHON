@@ -1,0 +1,5 @@
+
+i=1
+while i<=10:
+    print(i)#if we multiply any number with i we respective of that table till its tenth value
+    i+=1
