@@ -1,0 +1,20 @@
+collection={1,2,3,4,5,5,5,6,6,6,"hello my friend","how are you"}
+print(len(collection))
+#empty set
+name=set()
+print(type(name))
+#set methods 
+names={1,2,3,4,"rohith","rakesh","ramesh"}
+names.add(5)
+names.remove("ramesh")
+names.pop()
+print(names)
+#intersection and union 
+set1={"rohith","rakesh","ramesh"}
+set2={"hello","hi","rohith"}
+set3=set1.union(set2)
+print(set3)
+set1={"rohith","rakesh","ramesh"}
+set2={"hello","hi","rohith"}
+set3=set1.intersection(set2)
+print(set3)
