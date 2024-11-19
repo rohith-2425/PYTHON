@@ -1,0 +1,9 @@
+#indexing
+tup=(1,2,3,4,)
+print(tup[0])
+#slicing
+tup=(1,2,4,5,6,)
+print(tup[1:3])
+#counting
+tup=(1,2,23,3,4,4,4,4,5)
+print(tup.count(35))
