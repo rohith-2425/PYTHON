@@ -1,0 +1,27 @@
+list=[2,3,4,5,6,1]
+list=list[1:4]
+print(list)
+print(list[0])
+print(type(list))
+#this down programs are the list methods 
+#append method
+list=[2,3,4,5,6]
+list.append(1)
+list.append(2)
+print(list)
+#sort method(ascending order)
+list1=[7,5,7,35,7,12,7,]
+list=list1.sort()
+print(list1)
+#sort method(decending order)
+list=[34,5,6,7,83,357,8,9,1]
+print(list.sort(reverse=True))
+print(list)
+#reverse 
+list4=["hello my baby girl","hi"]
+list4.reverse()
+print(list4)
+#insert into a list
+list5=[1,2,3,5]
+list5.insert(1,4)
+print(list5)
